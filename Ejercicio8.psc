@@ -1,6 +1,6 @@
 Algoritmo sin_titulo
-//	Realizar un programa que permita almacenar números reales en una matriz de orden 4×3, cuatro filas y tres columnas. Además,
-	//	calcular e imprimir la suma de cada uno de los números ingresados
+//	Realizar un programa que permita almacenar nÃºmeros reales en una matriz de orden 4Ã—3, cuatro filas y tres columnas. AdemÃ¡s,
+	//	calcular e imprimir la suma de cada uno de los nÃºmeros ingresados
 	definir M Como Real;
 	Definir i, j, acum Como Entero;
 	acum=0;
@@ -10,6 +10,11 @@ Algoritmo sin_titulo
 		para j=1 hasta 3 con paso 1 Hacer
 			leer M[i,j];
 			acum=acum+M[i,j];
+		FinPara
+	FinPara
+	para i=1 hasta 4 con paso 1 Hacer
+		para j=1 hasta 3 con paso 1 Hacer
+			escribir M[i,j];
 		FinPara
 	FinPara
 	Escribir "Suma: ", acum;
