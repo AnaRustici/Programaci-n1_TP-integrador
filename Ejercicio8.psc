@@ -12,10 +12,6 @@ Algoritmo sin_titulo
 			acum=acum+M[i,j];
 		FinPara
 	FinPara
-	para i=1 hasta 4 con paso 1 Hacer
-		para j=1 hasta 3 con paso 1 Hacer
-			escribir M[i,j];
-		FinPara
-	FinPara
+	
 	Escribir "Suma: ", acum;
 FinAlgoritmo
